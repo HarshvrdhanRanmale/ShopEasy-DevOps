@@ -22,7 +22,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t shopeasy:1.0 .'
+                bat '"C:\\Users\\Harsh\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t shopeasy:1.0 .'
             }
         }
     }
